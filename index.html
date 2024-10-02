@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/rato triste.png" alt="">
+            <p>Você é um rato com fome em sua casa, quando magicamente um mapa cai na sua porta indicando o caminho para o queijo! Você decide seguir os caminhoos para saciar a sua fome.</p>
+            <button class="btn-proximo" data-proximo="1">OLhar no bueiro</button>
+            <button class="btn-proximo" data-proximo="2">Olhar na lixeira</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você decide olhar no bueiro e dentro do esgotos você encontra duas opções para o queijo</p>
+            <button class="btn-proximo" data-proximo="3">Subir a escada da direita.</button>
+            <button class="btn-proximo" data-proximo="4">Subir a escada da esquerda.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Olhando na lixeira você encontra um bilhete escrito que você deve procurar pelas casas da vizinhança até achar o queijo</p>
+            <button class="btn-proximo" data-proximo="5">Ver a casa do Bob Esponja.</button>
+            <button class="btn-proximo" data-proximo="6"> Ver a casa do Chaves.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Subindo as escadas você encontra uma trilha de farelos até a casa da bruxa do 71</p>
+            <button class="btn-proximo" data-proximo="7">Entrar na casa.</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/Final da torta.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Infelizmente você não consegue farejar mais o queijo, porém você encontrou a casa de um moço muito parecido com o Henry Cavill! Ele decide te acolher e deixar você morar junto com ele, vocês comem uma torta de maçã e vivem felizes para sempre.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Falando com o Bob Esponja ele te conta que a casa da bruxa do 71 é cheia de queijo e lá deve ser o seu destino final</p>
+            <button class="btn-proximo" data-proximo="7">Ir até a casa dela</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Infelizmente o Chaves não tem casa, só um barril, que estava vazio e por isso você não conseguiu falar com ele.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e falar com o Bob Esponja</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Na casa da bruxa você encontra uma prateleira cheia de queijo, mas ela não abre de jeito nenhum</p>
+            <button class="btn-proximo" data-proximo="9">pedir ajuda aos universitários</button>
+            <button class="btn-proximo" data-proximo="10">tentar quebrar o vidro sozinho</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>O Bob te conta da reserva infinita da bruxa do 71 e você decide averiguar</p>
+            <button class="btn-proximo" data-proximo="7">Entrar na casa da bruxa</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Os universitários usam toda força que tem e conseguem quebrar o vidro, agora você pode pegar seu quejo e ser feliz</p>
+            <button class="btn-proximo" data-proximo="11">Pegar queijo e voltar para casa</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você é apenas um rato pequeno, como poderia quebrar um vidro sozinho?</p>
+            <button class="btn-proximo" data-proximo="12">Pedir ajuda aos universitários</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/rato feliz final.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Você volta para o seu lar com seu maravilhoso e suculento queijo, come ele e volta a dormir, mas dessa vez de barriga cheia e sendo um rato feliz</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Mesmo sendo dia de Enem, os universitários aceitam te ajudar e usam o livro de química orgânica para quebrar o vidro e libertar o seu tão cobiçado queijo</p>
+            <button class="btn-proximo" data-proximo="11">Pegar o queijo e ir para casa</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
